@@ -1,0 +1,14 @@
+@charset "utf-8";
+//未编译样式
+.box {
+  width: 300px;
+  height: 400px;
+  background-color: brown;
+  text-align: center;
+  &-title {
+    height: 30px;
+    line-height: 30px;
+    color:white;
+    border:1px solid red;
+  }
+}
